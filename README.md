@@ -1,102 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
+EZ Car Rental Management System
+Project Overview
 
-        <title>Portfolio</title>
+EZ Car Rental is a web-based application designed to simplify car rental operations for both customers and administrators. Built with Java Servlets, MySQL, and a five-layer architecture (UI, Web UI, Data Access, Data Link, Database), the system allows users to browse cars, make reservations, manage rental information, and handle payments securely.
 
-    </head>
+Features
 
-    <body>
+User Management: Customer registration, login, and profile management.
 
-        <header>
-            <h2>Ahmad Fatah</h2>
-            <p>Full stack developer </p>
-            <img src="https://via.placeholder.com/150" alt="pic">
-            <hr/>
-        </header>
-        
-        <section>
-            <b>Education</b>
-            <ul>
-                <li>BTECH</li>
-                <li>GPA</li>
-                <li>Expected Graduation</li>
-            </ul>
-        </section>
-        <hr/>
+Car Management: Add, update, and remove cars from the rental inventory.
 
-        <section>
-            <b>Skills</b>
-            <ul>
-                <li>Soft Skills :</li>
-                <li>Hardware Skills :</li>
-            </ul>
+Booking System: Reserve cars, check availability, and view rental history.
 
-        </section>
-        <hr/>
+Payment Integration: Securely process credit card payments.
 
-        <section>
-            <b>Certification</b>
-        </section>
-        <hr/>
-        
+Admin Dashboard: Monitor reservations, manage customers, and generate reports.
 
-        <section>
-            <b>Experience</b>
-        </section>
-        <hr/>
-        <section>
-            <b>Achievements :</b>
-            <ul>
-                
-            </ul>
+Database Layer: MySQL backend with well-structured tables for users, cars, rentals, and payments.
 
-        </section>
+Technologies Used
 
-        <hr/>
-        <section>
-            <b>Projects</b>
-            <ul>
-                <li>Java Dash board</li>
-                <li>Java full stack rental cal </li>
-                <li>Java full stack ATM booth</li>
-                <li>----</li>
-                <li>SIEM tools project</li>
-                <li>Admin Linux  </li>
-                <li>Phishing cyber security</li> </li>
-        </section>
-        <hr/>
+Backend: Java Servlets, JDBC
 
-        <section>
-           <b> Hobies</b>
-           <ul>
-               <li>Reading</li>
-               <li>Writing</li>
-               <li>Travelling</li>  
-               <li>Photography(macro)</li>
-            </ul>
+Database: MySQL
 
-        </section>
-         <hr/>
-        <footer>
-            <h4>Contact</h4>
-           
-                <ul>
-                    <li>
-                        <a href ="https://www.linkedin.com/in/username">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href ="github">GitHub</a>
-                    </li>
-                    <li>
-                        <a href ="tryhackme">TryHackme</a>
-                    </li>
-                    <li><b>Phone:</b> 123-456-7890</li>
-                    <li><b>Email:</b> ahmad.fatah.zia@gmail.com </li>
-                </ul>
+Frontend: HTML, CSS, JSP
 
-        </footer>
-            
-    </body>
-</html>
+Architecture: Five-layer application architecture
+
+Key Highlights
+
+Implements robust data validation and constraints to ensure accurate and reliable information.
+
+Supports real-world rental scenarios, including availability checks, booking conflicts, and credit card validation.
+
+Modular design makes it scalable and maintainable for future enhancements.
+
+Project Goals
+
+Provide a user-friendly platform for car rentals.
+
+Demonstrate full-stack development skills in Java and MySQL.
+
+Showcase knowledge of software architecture principles and database design.
